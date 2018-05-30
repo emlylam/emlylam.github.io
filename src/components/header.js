@@ -3,39 +3,25 @@ import Link from 'gatsby-link'
 
 const Header = ({ siteTitle }) => (
   <div
-    style={{
-      background: 'rebeccapurple',
-      marginBottom: '1.45rem',
-    }}
+    style={{display: "Block"}}
   >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
+    <ul
+      style={{listStyleType: "None", margin: "0", padding: "0"}}
     >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-
-      <h1>
+      <li style={{display: "Inline", float: "Right", padding: "7px"}}>
         <Link
           to="/projects/"
+          style={{textDecoration: "None"}}
+        >Projects</Link>
+      </li>
+      <li style={{display: "Inline", float: "Right", padding: "7px"}}>
+        <Link to="/"
+              style={{textDecoration: "None"}}
         >
-         Projects
+          Home
         </Link>
-      </h1>
-
-    </div>
+      </li>
+    </ul>
   </div>
 )
 
