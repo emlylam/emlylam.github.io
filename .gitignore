@@ -7,5 +7,7 @@ yarn-error.log
 /public
 .DS_Store
 
-# User-specific stuff
+# WebStorm IDE thingies
 .idea/**/workspace.xml
+.idea/jsLibraryMappings.xml
+.idea/misc.xml
