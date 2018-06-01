@@ -16,11 +16,12 @@ export default ({ children }) => (
     <div>
       <header style={{ marginBottom: '1.5rem' }}>
         <Link to="/" style={{ textDecoration: 'none', textShadow: 'none', backgroundImage: 'none' }}>
-          <h3 style={{ display: 'inline' }}>Emily Lam</h3>
+          <h3 style={{ display: 'inline' }}>emly</h3>
         </Link>
         <ul style={{ listStyle: 'none', float: 'right' }}>
           <ListLink to="/">Home</ListLink>
           <ListLink to="/projects/">Projects</ListLink>
+          <ListLink to="/contact/">Contact</ListLink>
         </ul>
       </header>
       <div>
