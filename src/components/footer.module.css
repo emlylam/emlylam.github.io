@@ -1,8 +1,17 @@
-.footer{
+.footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 60px;
+    height: 50px;
     background: lightgray;
     text-align: center;
+}
+
+.footerContent {
+    color: black;
+}
+
+.footerP {
+    margin: 0 0 0 0; /* Removing margin-bottom from footer p-elements */
+    font-size: 10.5px;
 }
