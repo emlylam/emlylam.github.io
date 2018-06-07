@@ -1,3 +1,33 @@
- .indexContainer{
+.indexContainer{
      text-align: justify;
- }
+}
+
+.twoColumns {
+     box-sizing: border-box;
+}
+
+
+.row {
+
+}
+
+.column {
+    float: left;
+    padding: 10px;
+
+}
+
+.left {
+    width: 25%;
+}
+
+.right {
+    width: 75%;
+}
+
+/* Clears float after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
