@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 import Container from '../components/container'
 import Footer from '../components/footer'
+import '../../node_modules/font-awesome/css/font-awesome.min.css'
 
 const ListLink = props =>
   <li style={{ display: 'inline-block', marginRight: '1rem',  }}>
@@ -13,7 +14,6 @@ const ListLink = props =>
   </li>
 
 export default ({ children }) => (
-
   <div>
     <Container>
         <header style={{ marginBottom: '1.5rem' }}>

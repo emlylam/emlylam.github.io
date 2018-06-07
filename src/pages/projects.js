@@ -1,10 +1,14 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import styles from './projects.module.css'
-console.log(styles);
+import Helmet from 'react-helmet'
 
 const ProjectsPage = () => (
   <div>
+    <Helmet>
+      <title>Projects</title>
+    </Helmet>
+
     <h1>Projects</h1>
 
     <div className={styles.projectContainer}>

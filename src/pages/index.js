@@ -1,10 +1,14 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import styles from './index.module.css'
-console.log(styles);
+import Helmet from 'react-helmet'
 
 const IndexPage = () => (
   <div className={styles.indexContainer}>
+    <Helmet>
+      <title>emlylam</title>
+    </Helmet>
+
     <h1>Emily Lam</h1>
     <p>I'm currently a master's student studying Digital Business Strategy at accadis Hochschule
       Bad Homburg.</p>
