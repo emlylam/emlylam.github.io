@@ -15,6 +15,10 @@ const ListLink = props =>
 
 export default ({ children }) => (
   <div>
+    <Helmet>
+      <meta charSet="utf-8"/>
+    </Helmet>
+
     <Container>
         <header style={{ marginBottom: '1.5rem' }}>
           <Link to="/" style={{ textDecoration: 'none', textShadow: 'none', backgroundImage: 'none' }}>

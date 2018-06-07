@@ -6,10 +6,9 @@ import '../../node_modules/font-awesome/css/font-awesome.min.css'
 
 export default ({children}) => (
   <footer className={styles.footer}>
-
     <div style={{color: "Tomato"}}>
     <i className="fab fa-github"></i>
-    <p>Test Footer</p>
+    <p>&copy 2018 Designed by Emily Lam</p>
     </div>
   </footer>
 )
