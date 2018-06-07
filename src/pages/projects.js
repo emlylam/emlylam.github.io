@@ -42,7 +42,7 @@ class ProjectsPage extends React.Component {
 export default ProjectsPage
 
 export const pageQuery = graphql `
-  query IndexQuery {
+  query ProjectQuery {
     site {
        siteMetadata {
         title

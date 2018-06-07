@@ -2,43 +2,68 @@ import React from 'react'
 import Link from 'gatsby-link'
 import styles from './index.module.css'
 import Helmet from 'react-helmet'
+import Img from 'gatsby-image'
 
-const IndexPage = () => (
-  <div className={styles.indexContainer}>
-    <Helmet>
-      <title>emlylam</title>
-    </Helmet>
 
-    <div className={styles.twoColumns}>
+class IndexPage extends React.Component {
+  render(){
+    return (
+      <div className={styles.indexContainer}>
+        <Helmet>
+          <title>emlylam</title>
+        </Helmet>
 
-      <div className={styles.row}>
-        <div
-          className={`${styles.column} ${styles.left}`}
-          style={{background: 'green'}}
-        >
-          <p>TEST</p>
-        </div>
-        <div
-          className={`${styles.column} ${styles.right}`}
-          style={{background: 'blue'}}
-        >
-          <h1>Emily Lam</h1>
-          <p>I'm currently a master's student studying Digital Business Strategy at accadis Hochschule
-            Bad Homburg.</p>
-          <p>Before moving to Germany, I graduated from the University of Hong Kong with a Bachelor
-            of Business Administration, double majoring in Information Systems and Computer Science.</p>
+        <div className={styles.twoColumns}>
 
-          <p>In case you were wondering - I call myself 'emly' or 'emlylam' on the Internet because the username
-            'emilylam' is always taken. So no, I didn't <i>stylize</i> it just to look cool.
-          </p>
-          {/*<p>Extra facts about me: I learned German as a hobby and I'm also a die-hard believer of index funds.</p>*/}
+          <div className={styles.row}>
+            <div
+              className={`${styles.column} ${styles.left}`}
+              // style={{background: 'blue'}}
+            >
+              <h1>Emily Lam</h1>
+              <p>I'm currently a master's student studying Digital Business Strategy at accadis Hochschule
+                Bad Homburg.</p>
+              <p>Before moving to Germany, I graduated from the University of Hong Kong with a Bachelor
+                of Business Administration, double majoring in Information Systems and Computer Science.</p>
+
+              <p>In case you were wondering - I call myself 'emly' or 'emlylam' on the Internet because the username
+                'emilylam' is always taken. So no, I didn't <i>stylize</i> it just to look cool.
+              </p>
+              {/*<p>Extra facts about me: I learned German as a hobby and I'm also a die-hard believer of index funds.</p>*/}
+            </div>
+
+            <div
+              className={`${styles.column} ${styles.right}`}
+              // style={{background: 'green'}}
+              style={{padding: '30px', marginTop: '3rem'}}
+            >
+              <Img sizes={this.props.data.imgEmily.sizes} />
+            </div>
+
+          </div>
+
         </div>
       </div>
-
-    </div>
-
-  </div>
-)
+    )
+  }
+}
 export default IndexPage
 
+
+
+export const pageQuery = graphql `
+query IndexQuery {
+    site {
+       siteMetadata {
+        title
+       }
+    }
+    
+    imgEmily: imageSharp(id: { regex: "/emily.png/"}) {
+      sizes(maxWidth: 1000) {
+        ...GatsbyImageSharpSizes
+      }
+    }
+  }
+`
 
