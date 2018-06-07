@@ -6,6 +6,7 @@
   "dependencies": {
     "font-awesome": "^4.7.0",
     "gatsby": "^1.9.247",
+    "gatsby-image": "^1.0.52",
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-favicon": "^2.1.1",
     "gatsby-plugin-react-helmet": "^2.0.10",
@@ -13,6 +14,7 @@
     "gatsby-plugin-typography": "^1.7.18",
     "gatsby-remark-copy-linked-files": "^1.5.35",
     "gatsby-remark-images": "^1.5.65",
+    "gatsby-source-filesystem": "^1.5.38",
     "gatsby-transformer-sharp": "^1.6.26",
     "react-helmet": "^5.2.0"
   },

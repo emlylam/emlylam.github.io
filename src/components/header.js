@@ -8,7 +8,7 @@ const ListLink = props =>
     <NavLink
       exact to={props.to}
       style={{ textDecoration: 'none', color: '#000000' }}
-      activeStyle={{borderBottomWidth: '2.5px', borderBottomStyle: 'solid'}}
+      activeStyle={{borderBottomWidth: '2.3px', borderBottomStyle: 'solid'}}
     >
       {props.children}
     </NavLink>

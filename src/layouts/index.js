@@ -22,8 +22,8 @@ export default ({ children }) => (
           {children()}
         </div>
     </Container>
-    <Footer>
-    </Footer>
+    {/*<Footer>*/}
+    {/*</Footer>*/}
   </div>
 
 );
