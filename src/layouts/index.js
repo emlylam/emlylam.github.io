@@ -18,7 +18,7 @@ export default ({ children }) => (
     <Container>
        <Header>
        </Header>
-        <div>
+        <div style={{marginTop: '3rem'}}>
           {children()}
         </div>
     </Container>
