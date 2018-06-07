@@ -8,7 +8,7 @@ export default ({children}) => (
   <footer className={styles.footer}>
     <div className={styles.footerContent}>
     <i className="fab fa-github"></i>
-    <p className={styles.footerP}>Designed by Emily Lam</p>
+    <p className={styles.footerP}>100% created by Emily Lam</p>
     </div>
   </footer>
 )
