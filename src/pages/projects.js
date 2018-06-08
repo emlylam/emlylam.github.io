@@ -26,8 +26,9 @@ class ProjectsPage extends React.Component {
           <p className={styles.projectsP}>In a nutshell, the main objective of Delay No More for
             the users is to grow and level-up their own virtual farm by avoiding their own self-defined
             'blacklisted' websites (such as Facebook & YouTube) that distract them from their work.
-            Click <a href="https://github.com/IIMT4601/delay-no-more" target="_blank"> here</a> to view the source
-            code on GitHub.
+            The browsing analytics feature also allows users to visualize their day to day browsing habits.
+            Click <a href="https://github.com/IIMT4601/delay-no-more" target="_blank" style={{textDecoration: 'none', color:'#03A9F4'}}> here</a> to
+            view the source code on GitHub.
           </p>
         </div>
         <br></br>
