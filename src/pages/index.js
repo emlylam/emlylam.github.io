@@ -35,7 +35,7 @@ class IndexPage extends React.Component {
             <div
               className={`${styles.column} ${styles.right}`}
               // style={{background: 'green'}}
-              style={{padding: '30px', marginTop: '3rem'}}
+              style={{padding: '50px'}}
             >
               <Img sizes={this.props.data.imgEmily.sizes} />
             </div>
