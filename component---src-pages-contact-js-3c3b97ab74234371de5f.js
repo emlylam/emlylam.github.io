@@ -1,0 +1,2 @@
+webpackJsonp([70144966829960],{199:function(t,e,n){"use strict";function a(t){return t&&t.__esModule?t:{default:t}}e.__esModule=!0;var c=n(4),o=a(c),u=n(292),l=a(u),r=function(){return o.default.createElement("div",{className:l.default.contactContainer},o.default.createElement("h1",null,"Contact"))};e.default=r,t.exports=e.default},292:function(t,e){t.exports={contactContainer:"src-pages----contact-module---contactContainer---nLVmA"}}});
+//# sourceMappingURL=component---src-pages-contact-js-3c3b97ab74234371de5f.js.map
