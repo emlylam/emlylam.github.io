@@ -20,7 +20,7 @@ export default ({children}) => (
       <h3 style={{ display: 'inline', fontSize: '2rem', color: '#CB3837'}}>emly</h3>
     </Link>
     <ul style={{ listStyle: 'none', float: 'right' }}>
-      <ListLink exact to="/">Home</ListLink>
+      <ListLink exact to="/about/">About</ListLink>
       <ListLink exact to="/projects/">Projects</ListLink>
       <ListLink exact to="/contact/">Contact</ListLink>
     </ul>
