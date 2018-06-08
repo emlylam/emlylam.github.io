@@ -11,3 +11,4 @@ yarn-error.log
 .idea/**/workspace.xml
 .idea/jsLibraryMappings.xml
 .idea/misc.xml
+.idea/vcs.xml
