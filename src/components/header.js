@@ -17,7 +17,7 @@ const ListLink = props =>
 export default ({children}) => (
   <header style={{ marginBottom: '1.5rem' }}>
     <Link to="/" style={{ textDecoration: 'none', textShadow: 'none', backgroundImage: 'none' }}>
-      <h3 style={{ display: 'inline', fontSize: '2rem', color: '#CB3837'}}>emly</h3>
+      <h3 style={{ display: 'inline', fontSize: '2rem', color: '#413F40'}}>emly</h3>
     </Link>
     <ul style={{ listStyle: 'none', float: 'right' }}>
       <ListLink exact to="/about/">About</ListLink>

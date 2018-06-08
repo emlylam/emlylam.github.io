@@ -1,7 +1,8 @@
 import React from 'react'
+import styles from './container.module.css'
 
 export default ({ children }) => (
-  <div style={{margin: '3rem auto', maxWidth: '70%'}}>
+  <div className={styles.containerWrap}>
     {children}
   </div>
 );
