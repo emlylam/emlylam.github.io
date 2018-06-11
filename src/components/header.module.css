@@ -1,1 +1,45 @@
+.liStyle {
+    display: inline-block;
+    margin-right: 1rem;
+    font-size: 1.9rem;
+}
+
+.navLinkStyle {
+    text-decoration: none;
+    color: #000000;
+}
+
+.ulStyle a:hover {
+    border-bottom-width: 2.5px;
+    border-bottom-style: solid;
+}
+
+
+.headerStyle {
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+}
+
+.logoStyle {
+    display: inline;
+    font-size: 1.9rem;
+    color: #413F40;
+}
+
+.ulStyle {
+    list-style: none;
+    float: right;
+}
+
+
+@media screen and (max-width: 500px) {
+    header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .ulStyle {
+        float: none;
+    }
+}
 
