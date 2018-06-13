@@ -1,7 +1,9 @@
 .footer {
     /*position: absolute;*/
-    position: relative;
+    position: absolute;
     bottom: 0;
+    right: 0;
+    left: 0;
     width: 100%;
     height: 50px;
     background: #FFFFFF;
@@ -14,7 +16,7 @@
 }
 
 .iconStyle {
-    font-size: 2.5rem !important; /*Changing icon size*/
+    font-size: 2rem !important; /*Changing icon size*/
     padding: 0.5rem;
 }
 

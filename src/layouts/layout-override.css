@@ -1,0 +1,17 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 93%;
+    position: relative;
+    margin: 0;
+}
+
+/*For footer sticking to the bottom*/
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}

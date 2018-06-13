@@ -6,6 +6,7 @@ import Container from '../components/container'
 import Footer from '../components/footer'
 import Header from '../components/header'
 import '../../node_modules/font-awesome/css/font-awesome.min.css'
+import './layout-override.css'
 
 
 
@@ -23,8 +24,8 @@ export default ({ children }) => (
           {children()}
         </div>
     </Container>
-    {/*<Footer>*/}
-    {/*</Footer>*/}
+    <Footer>
+    </Footer>
   </div>
 
 );
