@@ -15,7 +15,7 @@ const ListLink = props =>
   </li>
 
 export default ({children}) => (
-  <header className={styles.headerStyle}>
+  <header className={styles.headerStyle} style={{padding: '1rem'}}>
     <Link to="/" style={{ textDecoration: 'none', textShadow: 'none', backgroundImage: 'none' }}>
       <h3 className={styles.logoStyle}>emly</h3>
     </Link>

@@ -1,7 +1,16 @@
-.projectContainer{
+.projectContainer {
     margin: auto;
     /*padding: 10px;*/
     text-align: justify;
+}
+
+.delayNoMoreProject {
+    background: #F9AF3E; /*Delay No More Orange*/
+    color: #FFFFFF;
+}
+
+.projectPadding {
+    padding: 2rem;
 }
 
 .projectsP {

@@ -19,12 +19,12 @@ export default ({ children }) => (
     <Container>
        <Header>
        </Header>
-        <div style={{marginTop: '3rem'}}>
+        <div>
           {children()}
         </div>
     </Container>
-    <Footer>
-    </Footer>
+    {/*<Footer>*/}
+    {/*</Footer>*/}
   </div>
 
 );

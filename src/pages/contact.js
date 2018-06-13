@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 
 
 const ContactPage = () => (
-  <div className={styles.contactContainer}>
+  <div className={styles.contactContainer} style={{padding: '1rem'}}>
     <Helmet>
       <title>Contact</title>
     </Helmet>
