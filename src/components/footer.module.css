@@ -1,10 +1,21 @@
 .footer {
-    position: absolute;
+    /*position: absolute;*/
+    position: relative;
     bottom: 0;
     width: 100%;
     height: 50px;
-    background: #DCDCDC;
+    background: #FFFFFF;
     text-align: center;
+}
+
+.iconLink {
+    text-decoration: none;
+    color: #162129; /*Icon color (charcoal)*/
+}
+
+.iconStyle {
+    font-size: 2.5rem !important; /*Changing icon size*/
+    padding: 0.5rem;
 }
 
 .footerContent {
@@ -13,5 +24,6 @@
 
 .footerP {
     margin: 0 0 0 0; /* Removing margin-bottom from footer p-elements */
-    font-size: 10.5px;
+    font-size: 11px;
 }
+

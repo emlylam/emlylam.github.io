@@ -7,8 +7,16 @@ import '../../node_modules/font-awesome/css/font-awesome.min.css'
 export default ({children}) => (
   <footer className={styles.footer}>
     <div className={styles.footerContent}>
-    <i className="fab fa-github"></i>
-    <p className={styles.footerP}>100% created by Emily Lam</p>
+    <a href="https://github.com/emlylam" target="_blank" className={styles.iconLink}>
+      <i className={"fa fa-github" + " " + `${styles.iconStyle}`}/>
+    </a>
+    <a href="https://www.linkedin.com/in/emily-lam-766373158/" target="_blank" className={styles.iconLink}>
+      <i className={"fa fa-linkedin" + " " + `${styles.iconStyle}`}/>
+    </a>
+    <a href="mailto:emilylam2112@gmail.com" className={styles.iconLink}>
+      <i className={"fa fa-at" + " " + `${styles.iconStyle}`}/>
+    </a>
+    <p className={styles.footerP}>Built by Emily Lam</p>
     </div>
   </footer>
 )
