@@ -8,7 +8,7 @@ import Img from 'gatsby-image'
 class IndexPage extends React.Component {
   render(){
     return (
-      <div className={styles.indexContainer} style={{padding: '1rem'}}>
+      <div className={styles.indexContainer} style={{padding: '2rem'}}>
         <Helmet>
           <title>emlylam</title>
         </Helmet>

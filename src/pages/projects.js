@@ -15,7 +15,7 @@ class ProjectsPage extends React.Component {
         <div className={styles.projectContainer}>
           <div className={styles.delayNoMoreProject}>
             <div className={styles.projectPadding}>
-              <h1>Delay No More Productivity App</h1>
+              <h1>Delay No More</h1>
               <p className={styles.projectsP}>During my final semester, my group and I built a Chrome extension to help students
                 work more productively on the Internet. Our app utilizes gamification to help users build
                 a good long-term habit and minimize distractions.
