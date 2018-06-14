@@ -1,5 +1,6 @@
 .indexContainer{
      text-align: justify;
+     padding: 0 2rem 0 2rem;
 }
 
 .twoColumns {
@@ -15,11 +16,13 @@
 }
 
 .left {
-    width: 75%;
+    width: 80%;
+    padding: 0 4rem 0 4rem;
 }
 
 .right {
-    width: 25%;
+    width: 20%;
+    margin-top: 40px;
 }
 
 /* Clears float after the columns */
@@ -27,4 +30,24 @@
     content: "";
     display: table;
     clear: both;
+}
+
+.imgEmily {
+    width: 180px;
+}
+
+/*Responsive layout makes two columns stack on top of each other instead of next to*/
+@media screen and (max-width: 900px) {
+    .column {
+        width: 100%;
+    }
+
+    .imgEmily {
+        width: auto; /*Important configuration otherwise pic will fk-up*/
+    }
+
+    .right {
+        padding: 0 10rem 10rem 10rem;
+        margin-top: 0;
+    }
 }

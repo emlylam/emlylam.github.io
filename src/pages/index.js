@@ -8,7 +8,7 @@ import Img from 'gatsby-image'
 class IndexPage extends React.Component {
   render(){
     return (
-      <div className={styles.indexContainer} style={{padding: '2rem'}}>
+      <div className={styles.indexContainer}>
         <Helmet>
           <title>emlylam</title>
         </Helmet>
@@ -35,9 +35,9 @@ class IndexPage extends React.Component {
             <div
               className={`${styles.column} ${styles.right}`}
               // style={{background: 'green'}}
-              style={{padding: '3rem'}}
+              // style={{padding: '3rem'}}
             >
-              <Img sizes={this.props.data.imgEmily.sizes} />
+              <Img sizes={this.props.data.imgEmily.sizes} className={styles.imgEmily}/>
             </div>
 
           </div>
