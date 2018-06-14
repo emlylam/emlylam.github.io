@@ -1,45 +1,61 @@
-.liStyle {
-    display: inline-block;
-    margin-right: 1rem;
-    font-size: 1.9rem;
-}
-
-.navLinkStyle {
+.menuLink {
     text-decoration: none;
     color: #000000;
 }
-
-.ulStyle a:hover {
-    border-bottom-width: 2.5px;
-    border-bottom-style: solid;
-}
-
-
-.headerStyle {
+.header {
     overflow: hidden;
-    padding: 1rem 1rem 0 1rem;
+    padding: 1rem 2rem 1rem 2rem;
 }
 
-.logoStyle {
+.header a {
+    float: left;
+    text-align: center;
+    padding: 0 0.5rem 0 0.5rem;
+    font-size: 1.9rem;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.logoText {
     display: inline;
     font-size: 1.9rem;
     color: #413F40;
 }
 
-.ulStyle {
+.headerRight {
+    float: right;
+}
+
+.headerRightUL {
     list-style: none;
     float: right;
 }
 
 
+
 @media screen and (max-width: 500px) {
-    header a {
+    .header {
+        background-color: #F5F5F5;
+        padding-bottom: 2rem;
+    }
+
+    .header a {
         float: none;
         display: block;
-        text-align: left;
+        text-align: center;
+        margin: auto;
+        width: 137px;
     }
-    .ulStyle {
+
+    .logoText {
+        font-size: 2.5rem;
+    }
+
+    .headerRight {
         float: none;
     }
+
 }
 
