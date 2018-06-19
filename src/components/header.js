@@ -19,7 +19,7 @@ export default ({children}) => (
           style={{ textDecoration: 'none', textShadow: 'none', backgroundImage: 'none' }}
           className={styles.logo}
     >
-      <h3 className={styles.logoText}>emly</h3>
+      <h1 className={styles.logoText}>emly</h1>
     </Link>
     <div className={styles.headerRight}>
         <MenuLink exact to="/about/" className={styles.about}>About</MenuLink>

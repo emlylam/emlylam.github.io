@@ -2,8 +2,8 @@ import Typography from 'typography'
 
 const typography = new Typography({
   baseFontSize: '16px',
-  headerFontFamily: ['Helvetica Neue'],
-  bodyFontFamily: ['Helvetica Neue'],
+  // headerFontFamily: ['Open Sans'],
+  // bodyFontFamily: ['Open Sans'],
 });
 
 export default typography;

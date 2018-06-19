@@ -21,6 +21,7 @@ a:hover {
 }
 
 .logoText {
+    font-family: 'Open Sans', sans-serif !important;
     display: inline;
     font-size: 2.3rem;
     color: #413F40;

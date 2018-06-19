@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import styles from './about.module.css'
 
 const AboutPage = () => (
-  <div style={{padding: '2rem 2rem 2rem 2.1rem'}}>
+  <div style={{padding: '2rem 2rem 2rem 2.5rem'}}>
     <Helmet>
       <title>About</title>
     </Helmet>
